@@ -72,13 +72,14 @@ body {
 }
 
 .slider {
-    background-image: url(./img/slider-1.jpg);
+    background-image: url("./starter-code/img/slider-1.jpg");
+    background-color: #292929;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px; 
-    height: 520px;
+    width: 100%;
     -webkit-filter: grayscale(100%);
     display: flex;
+    padding: 4rem;
     text-align: center;
 }
 
